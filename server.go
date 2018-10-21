@@ -27,7 +27,7 @@ type ArithResponse struct {
 	Rem int
 }
 
-// 惩罚运算方法
+// 乘法运算方法
 func (this *Arith) Multiply(req ArithRequest, res *ArithResponse) error {
 	res.Pro = req.A * req.B
 	return nil
